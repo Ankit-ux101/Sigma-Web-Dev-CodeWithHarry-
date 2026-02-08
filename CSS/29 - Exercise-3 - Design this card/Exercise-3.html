@@ -5,9 +5,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container {
+            background-color: rgb(244, 244, 244);
+            width: 20vw;
+            height: 35vw;
+            border: 2px solid rgb(190, 190, 190);
+            border-radius: 12px;
+            margin: 73px auto;
+        }
+
+        .pic {
+            align-content: center;
+            padding: 11px 9px;
+            width: 290px;
+            height: 260px;
+            display: block;
+            object-fit: cover;
+            border-radius: 25px;
+        }
+
+        .small_buttons {
+            display: flex;
+            padding: 0px 30px;
+        }
+
+        .smb1 {
+            margin: 7px 12px 0px -7px;
+            border: 1.7px solid rgb(151, 151, 151);
+            background-color: rgb(246, 246, 246);
+            color: rgb(151, 151, 151);
+            font-weight: 600;
+            border-radius: 15px;
+            padding: 0px 17px;
+            font-family: Poppins;
+        }
+
+        .smb2 {
+            margin: 7px 12px 0px 0px;
+            border: 1.7px solid rgb(151, 151, 151);
+            background-color: rgb(246, 246, 246);
+            color: rgb(151, 151, 151);
+            font-weight: 600;
+            border-radius: 15px;
+            padding: 2px 20px;
+            font-family: Poppins;
+        }
+
+        h1 {
+            margin: 10px 20px;
+            font-family: Poppins Light;
+        }
+
+        p {
+            margin: 10px 20px;
+            font-family: Poppins Light;
+            line-height: 1.4;
+            font-size: 15px;
+        }
+
+        .big_button {
+            margin: 5px 85px;
+            border-style: none;
+            background-color: rgb(188, 233, 233);
+            color: rgb(0, 166, 255);
+            border-radius: 20px;
+            padding: 9px 20px;
+            font-family: Poppins;
+            font-weight: bold;
+
+        }
+    </style>
 </head>
 
 <body>
+    <!-- Card png is a file which contain a card Image. Write html and css code to design this card -->
+
+    <div class="container">
+        <img src="images.jpg" alt="Thumbnail" class="pic">
+        <div class="small_buttons">
+            <button class="smb1">Nature</button>
+            <button class="smb2">Lake</button>
+        </div>
+
+        <h1>Lago di Braies</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dignissimos quaerat architecto est corrupti
+        </p>
+        <button class="big_button">Read More</button>
+
+    </div>
+
 
 </body>
 
